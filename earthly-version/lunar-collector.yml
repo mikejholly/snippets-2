@@ -5,6 +5,9 @@ author: mikejholly@gmail.com
 
 collectors:
   - mainBash: ./earthly-version.sh
+    hook:
+      type: ci-before-command
+      pattern: ^earthly.*
 
 inputs:
   required_version:
