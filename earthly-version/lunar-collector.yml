@@ -5,3 +5,8 @@ author: mikejholly@gmail.com
 
 collectors:
   - mainBash: ./earthly-version.sh
+
+inputs:
+  required_version:
+    description: The version we're looking for
+    default: 0.1
