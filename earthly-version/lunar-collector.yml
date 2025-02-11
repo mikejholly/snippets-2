@@ -1,0 +1,7 @@
+version: 0
+
+description: Capture the installed Earthly version
+author: mikejholly@gmail.com
+
+collectors:
+  - mainBash: ./earthly-version.sh
